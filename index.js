@@ -2,7 +2,7 @@ const express = require('express');   // import express library
 const app = express();      // generate the app object-> the underlying running express server
 
 app.get('/',(req, res) => {
-  res.send({hi: 'there'});
+  res.send({bye: 'buddy'});
 });
 
 
